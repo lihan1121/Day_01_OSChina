@@ -20,7 +20,7 @@
         android:layout_marginBottom="146dp"
         android:layout_marginLeft="121dp"
         android:layout_marginStart="121dp"
-        android:text="风" />
+        android:text="@string/app_name" />
 
     <TextView
         android:id="@+id/textView"
@@ -32,5 +32,15 @@
         android:layout_marginLeft="11dp"
         android:layout_marginStart="11dp"
         android:layout_marginTop="100dp"
-        android:text="老酒……" />
+        android:text="@string/app_name" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="32dp"
+        android:text="@string/app_name" />
 </RelativeLayout>
